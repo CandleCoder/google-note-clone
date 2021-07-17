@@ -38,7 +38,7 @@ class SignUp extends React.Component {
           spacing={0}
           direction="column"
           alignItems="center"
-          justify="center"
+          justifyContent="center"
           style={{ minHeight: "80vh" }}
         >
           <Container component="main" maxWidth="xs">
