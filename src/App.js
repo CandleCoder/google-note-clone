@@ -9,11 +9,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <LandingComponent login={false} />
-        <Box mt={8}>
-          <Copyright />
-        </Box>
+        <React.StrictMode>
+          <Header />
+          <LandingComponent login={false} />
+          <Box mt={8}>
+            <Copyright />
+          </Box>
+        </React.StrictMode>
       </div>
     );
   }

@@ -19,7 +19,6 @@ class LandingComponent extends React.Component {
         <SignUp />
       </div>
     );
-    return null;
   }
 }
 
