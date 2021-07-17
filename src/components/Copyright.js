@@ -8,7 +8,7 @@ class Copyright extends Component {
       <Typography variant="body2" color="textSecondary" align="center">
         {"Copyright © "}
         <Link color="inherit" href="https://google.com/">
-          Your Website
+          Candle Coder
         </Link>{" "}
         {new Date().getFullYear()}
         {"."}
